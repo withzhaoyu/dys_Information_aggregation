@@ -39,7 +39,8 @@
   display: flex;
   min-width: 325px;
   flex-direction: column;
-  background-color: rgb(107, 102, 102);
+  background-color: rgb(232, 226, 226);
+  padding: 10px;
   height: 600px;
 }
 
