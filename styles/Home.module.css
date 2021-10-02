@@ -1,11 +1,11 @@
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
+  margin-top: 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  flex: 1 0;
   height: 100vh;
+  background-color: honeydew;
 }
 
 .main {
@@ -15,6 +15,32 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.left {
+  display: flex;
+  flex: 0 0 auto;
+  min-width: 325px;
+  background-color: white;
+  flex-direction: column;
+  height: 600px;
+}
+
+.middle {
+  display: flex;
+  flex: 1 1 auto;
+  min-width: 325px;
+  flex-direction: column;
+  background-color: rgb(211, 200, 200);
+  height: 600px;
+}
+
+.right {
+  display: flex;
+  min-width: 325px;
+  flex-direction: column;
+  background-color: rgb(107, 102, 102);
+  height: 600px;
 }
 
 .footer {
@@ -111,6 +137,14 @@
 .logo {
   height: 1em;
   margin-left: 0.5rem;
+}
+.header {
+  height: 50px;
+  background-color: gray;
+  opacity: 0.7;
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
