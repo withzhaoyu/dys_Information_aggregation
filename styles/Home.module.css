@@ -42,6 +42,7 @@
   background-color: rgb(232, 226, 226);
   padding: 10px;
   height: 600px;
+  max-width: 400px;
 }
 
 .footer {
