@@ -10,6 +10,9 @@ export default function Home() {
     const data = await status.json();
     alert(data ? "已开播" : "未开播");
   };
+  useEffect(()=> {
+  window.location.href='http://124.221.2.237/';
+  },[])
   const [a, b] = useState('');
   return (
     <div>
